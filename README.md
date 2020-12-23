@@ -13,7 +13,7 @@
 
 ---
 
-CLI is the command line interface for Hux](https://github.com/hux-js/hux). It includes features such as API contract testing. This can be used in automated testing pipelines, or locally, to ensure your clients are compatible with the data returned from the server.
+CLI is the command line interface for [Hux](https://github.com/hux-js/hux). It includes features such as API contract testing. This can be used in automated testing pipelines, or locally, to ensure your clients are compatible with the data returned from the server.
 
 ---
 
@@ -35,13 +35,21 @@ yarn add @hux-js/cli
 
 ## Basic usage
 
-TBC
+### Contract testing
+
+Add the following script to the `scripts` object in `package.json`, where `-d src/` is your app directory:
+
+<code>"test:contract": "hux test -d src/"</code>
+
+You can then call it with `npm run test:contract`.
+
+<blockquote>You may experience a CORS issue if you have custom whitelisting on your server. Disabling this for the development server, or if `Origin` is undefined can fix this</blockquote>
 
 ---
 
 ## Contributing
 
-If you'd like to contribute please read our [Code of Conduct](https://github.com/hux-js/hux-contrax/blob/develop/CODE_OF_CONDUCT.md) & [Contributing](https://github.com/hux-js/hux-contrax/blob/develop/CONTRIBUTING.md) guides before doing so
+If you'd like to contribute please read our [Code of Conduct](https://github.com/hux-js/hux-cli/blob/develop/CODE_OF_CONDUCT.md) & [Contributing](https://github.com/hux-js/hux-cli/blob/develop/CONTRIBUTING.md) guides before doing so
 
 ---
 
