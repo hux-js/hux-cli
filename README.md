@@ -13,7 +13,7 @@
 
 ---
 
-CLI is the command line interface for Hux](https://github.com/hux-js/hux). It includes features such as API contract testing. This can be used in automated testing pipelines, or locally, to ensure your clients are compatible with the data returned from the server.
+CLI is the command line interface for [Hux](https://github.com/hux-js/hux). It includes features such as API contract testing. This can be used in automated testing pipelines, or locally, to ensure your clients are compatible with the data returned from the server.
 
 ---
 
