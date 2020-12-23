@@ -6,7 +6,7 @@
   "unpkg": "dist/bundle.umd.min.js",
   "scripts": {
     "test": "npm run test:lint && npm run test:unit",
-    "test:lint": "eslint --fix 'src/**/*.js'",
+    "test:lint": "eslint --fix 'bin/**/*.js'",
     "test:unit": "jest --config jest.config.js",
     "package": "rollup -c",
     "package-watch": "rollup -c --watch",
